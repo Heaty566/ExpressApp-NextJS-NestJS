@@ -1,0 +1,38 @@
+{
+        "name": "client",
+        "version": "1.0.0",
+        "description": "",
+        "main": "index.js",
+        "scripts": {
+                "start:dev": "next",
+                "build": "next build",
+                "start": "next start",
+                "type-check": "tsc"
+        },
+        "author": "",
+        "license": "ISC",
+        "proxy": "http://localhost:4000",
+        "dependencies": {
+                "@ant-design/icons": "^4.2.2",
+                "@zeit/next-css": "^1.0.1",
+                "@zeit/next-less": "^1.0.1",
+                "@zeit/next-sass": "^1.0.1",
+                "antd": "^4.6.2",
+                "axios": "^0.20.0",
+                "less": "^3.12.2",
+                "next": "^9.5.2",
+                "react": "^16.13.1",
+                "react-dom": "^16.13.1",
+                "react-router-dom": "^5.2.0"
+        },
+        "devDependencies": {
+                "@types/next": "^9.0.0",
+                "@types/node": "^14.6.2",
+                "@types/react": "^16.9.48",
+                "@types/react-dom": "^16.9.8",
+                "@types/react-router-dom": "^5.1.5",
+                "@zeit/next-typescript": "^1.1.1",
+                "babel-plugin-inline-react-svg": "^1.1.1",
+                "typescript": "^4.0.2"
+        }
+}

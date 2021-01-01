@@ -1,0 +1,35 @@
+@import "lib.less";
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+.root {
+        min-height: 100vh;
+        width: 100%;
+        position: relative;
+}
+
+a {
+        display: block;
+        text-decoration: none;
+}
+
+.container {
+        padding-top: 4rem;
+        min-height: 100%;
+}
+
+.content__container {
+        min-height: calc(100vh - 8.375rem);
+        .breakPoint(xs, {
+                    min-height: calc(100vh - 6.875rem);
+                });
+}
+
+.icon {
+        width: 100%;
+        height: 100%;
+}

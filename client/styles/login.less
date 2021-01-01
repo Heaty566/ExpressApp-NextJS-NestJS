@@ -1,0 +1,19 @@
+@import "lib.less";
+
+.login {
+        &__col {
+                max-width: 50%;
+                .breakPoint (xs, {
+                    max-width: 100%;
+                });;
+        }
+
+        &__form {
+                max-width: 21.875rem;
+                .breakPoint (xs, {
+                    // display: flex;
+                    // flex-direction: column;
+                    // justify-content: center
+                });;
+        }
+}

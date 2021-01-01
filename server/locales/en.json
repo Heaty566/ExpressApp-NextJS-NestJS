@@ -1,0 +1,21 @@
+{
+	"hello": "hello",
+	"password": "password",
+	"Password should contain at least 8 characters": "Password should contain at least 8 characters",
+	"username": "username",
+	"Username should not be empty": "Username should not be empty",
+	"Username": "Username",
+	"is already exists": "is already exists",
+	"Username or password is incorrect": "Username or password is incorrect",
+	"confirmPassword": "confirmPassword",
+	"Confirm password should match with password": "Confirm password should match with password",
+	"Test": "Test",
+	"Gender should be": "Gender should be",
+	"Password should contain letters and numbers": "Password should contain letters and numbers",
+	"name": "name",
+	"Name should contain at least 5 characters": "Name should contain at least 5 characters",
+	"Username should contain letters and numbers": "Username should contain letters and numbers",
+	"Username should contain at least 5 characters": "Username should contain at least 5 characters",
+	"Invalid Token": "Invalid Token",
+	"Request friend has been sent": "Request friend has been sent"
+}

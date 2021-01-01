@@ -1,0 +1,25 @@
+@import "lib.less";
+
+.navbar {
+        &__container {
+                position: fixed;
+                z-index: 999;
+                width: 100%;
+
+                .breakPoint (xs, {
+                    padding: 0 1rem;
+            });;
+        }
+
+        &__logo {
+                & > svg {
+                        max-width: 150px;
+                }
+
+                .breakPoint( xs,{
+                      &> svg {
+                          max-width: none;
+                      }
+                            });
+        }
+}

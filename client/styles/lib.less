@@ -1,0 +1,38 @@
+.d-flex (@justify-content) {
+        display: flex;
+        justify-content: @justify-content;
+        align-items: center;
+}
+
+.breakPoint ( @type ,@content) {
+        & when (@type = xs) {
+                @media screen and (max-width: 480px) {
+                        @content();
+                }
+        }
+        & when (@type = sm) {
+                @media screen and (max-width: 576px) {
+                        @content();
+                }
+        }
+        & when (@type = md) {
+                @media screen and (max-width: 768px) {
+                        @content();
+                }
+        }
+        & when (@type = lg) {
+                @media screen and (max-width: 992px) {
+                        @content();
+                }
+        }
+        & when (@type = xl) {
+                @media screen and (max-width: 1200px) {
+                        @content();
+                }
+        }
+        & when (@type = xxl) {
+                @media screen and (max-width: 1600px) {
+                        @content();
+                }
+        }
+}

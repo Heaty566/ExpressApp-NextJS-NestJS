@@ -1,0 +1,62 @@
+.fadeIn {
+        animation: fadeIn 0.5s ease-out;
+}
+@keyframes fadeIn {
+        0% {
+                opacity: 0;
+                transform: translateY(50px);
+        }
+
+        80% {
+                transform: translateY(0px);
+                opacity: 1;
+        }
+}
+#background__login #message-1,
+#message-2,
+#message-3 {
+        opacity: 0;
+}
+
+#background__login #message-1 {
+        animation: MessageFadeInLeft 1s forwards;
+}
+#background__login #message-2 {
+        animation: MessageFadeInRight 1s forwards 1s;
+}
+#background__login #message-3 {
+        animation: MessageFadeInLeft 1s forwards 2s;
+}
+
+#background__login #hand {
+        animation: HandAnimation 2s alternate infinite;
+        transform-origin: center;
+}
+
+@keyframes HandAnimation {
+        0% {
+                transform: rotate(2deg);
+        }
+}
+
+@keyframes MessageFadeInLeft {
+        0% {
+                transform: translateX(50px);
+        }
+
+        100% {
+                transform: translateX(0px);
+                opacity: 1;
+        }
+}
+
+@keyframes MessageFadeInRight {
+        0% {
+                transform: translateX(-50px);
+        }
+
+        100% {
+                transform: translateX(0px);
+                opacity: 1;
+        }
+}
